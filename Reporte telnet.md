@@ -49,7 +49,11 @@ con esto se consagra la conexion con la maquina:
 
 ![image](https://github.com/user-attachments/assets/8a686e25-1fe0-48f5-8eec-09e79f8b7ce0)
 
-si bien es cierto con la maquina objetivo en cuestion ya nos muestra sus credenciales para su ingreseo solo realizando  una conexion mediante el servicio de telnetl.
+Si bien es cierto con la maquina objetivo en cuestion ya nos muestra sus credenciales para su ingreseo solo realizando  una conexion mediante el servicio de telnet.
+
+Este tipo de vulnrabiliades se puede contemplar en ;
+  CVE-1999-0506 (Telnet Daemon Authentication Bypass): Esta es una CVE muy antigua y general para los demonios Telnet que podrían tener omisiones de autenticación o mecanismos de autenticación débiles. Aunque no es específica de Metasploitable2,      el espíritu de esta vulnerabilidad (acceso fácil) es lo que Metasploitable2 pretende demostrar.
+  CVE-2001-0504 (Telnet Daemon Remote Buffer Overflow): Esto se refiere a desbordamientos de búfer en los demonios Telnet, que podrían conducir a la ejecución remota de código. Metasploitable2 está diseñado para tener este tipo de vulnerabilidades.
 
 
 
