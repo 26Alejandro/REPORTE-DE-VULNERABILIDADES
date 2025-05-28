@@ -1,0 +1,1 @@
+Mediante el servicio VNC
