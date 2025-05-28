@@ -54,3 +54,15 @@ password
 Para poder ingresar de manera gráfica nos apoyaremos en la herramienta **VNCVIEWER**.
 
 ![image](https://github.com/user-attachments/assets/4af8b82c-9aa5-4de7-891b-f392b0349e7b)
+
+---
+
+## Vulnerabilidades relacionadas
+
+- **CVE-1999-0504 (VNC Authentication Bypass)**: Esta CVE, aunque muy antigua, describe una vulnerabilidad en VNC donde se podía omitir la autenticación en ciertas configuraciones. Aunque no es directamente sobre "credenciales débiles", apunta a la falta de seguridad en el proceso de autenticación.
+
+- **CVE-2002-0545 (RealVNC default password)**: Esta CVE es más específica y se refiere a versiones de RealVNC que tenían una contraseña predeterminada (`password`), lo que facilitaba el acceso no autorizado. Esta es exactamente la situación que Metasploitable2 simula con VNC. Muchas otras CVEs similares pueden existir para otras implementaciones de VNC con contraseñas por defecto.
+
+---
+
+⚠️ **Advertencia**: Este procedimiento fue realizado únicamente en un entorno controlado con fines educativos. Ejecutar estas técnicas en sistemas sin autorización es ilegal y está penado por la ley.
