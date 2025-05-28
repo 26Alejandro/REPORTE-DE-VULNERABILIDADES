@@ -1,4 +1,4 @@
-Vulneracion mediante explotacion del servicio telnet
+**Vulneracion mediante explotacion del servicio telnet
 
 Para esto nos apoyaremos de la herramienta  nmap con el siguiente comando:
 
@@ -25,3 +25,7 @@ show options
 ![image](https://github.com/user-attachments/assets/3cb108e2-3f92-4dd1-ad27-b25aa6d0ede6)
 
 como se puede llegar a identificar nos faltaria completar el campo de RHOST que seria la ip nuestro objetivo.
+
+En mi caso la ip fue de 192.168.222.131 esta se ingresa con el comando:
+
+set RHOST 192.168.222.131
