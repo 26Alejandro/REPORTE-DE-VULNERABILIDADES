@@ -11,18 +11,21 @@ nos apoyaremos de la  herramienta metasploit, ingresando el siguiente comando pa
 msfconsole
 
 En ella buscaremos algun script que sea compatible con nuestro servicio disponible y con nuestro objetivo que es ingresar a la maquina
-![image](https://github.com/user-attachments/assets/e2fa8497-b3ed-4024-a874-dacaac890875)
+![image](https://github.com/user-attachments/assets/b1406250-e7d4-4116-b29a-573e1a07b68a)
+
 
 seleccionamos el esta herramienta con el comando:
 
- use 5
+ use 3
 
-![image](https://github.com/user-attachments/assets/ed01761f-4cfe-4b31-b800-5a97a968675f)
+![image](https://github.com/user-attachments/assets/36c2102b-0255-44ca-a1a7-b5d4929bb07a)
+
 
 visualizamos las opciones que tiene este script ya preparado, con el comando:
 
 show options
-![image](https://github.com/user-attachments/assets/3cb108e2-3f92-4dd1-ad27-b25aa6d0ede6)
+![image](https://github.com/user-attachments/assets/33dd83f4-d1f3-4b29-a0b3-6b6d49f4af0c)
+
 
 como se puede llegar a identificar nos faltaria completar el campo de RHOST que seria la ip nuestro objetivo.
 
