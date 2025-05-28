@@ -1,5 +1,0 @@
-Vulneracion mediante explotacion del servicio telnet
-
-Para esto nos apoyaremos de la herramienta  nmap con el siguiente comando
-
-nmap -sV 192.168.222.131 
