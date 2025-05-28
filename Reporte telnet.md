@@ -32,7 +32,17 @@ como se puede llegar a identificar nos faltaria completar el campo de RHOST que 
 En mi caso la ip fue de 192.168.222.131 esta se ingresa con el comando:
 
 set RHOST 192.168.222.131
-![image](https://github.com/user-attachments/assets/41820f44-3ac5-4db8-9e6d-cd8e3cd07951)
+
+![image](https://github.com/user-attachments/assets/d02e1177-0d88-49c9-8774-37dee759692d)
+
+Llegado a este punto se ejecunta con el comando run u exploit
+
+![image](https://github.com/user-attachments/assets/cf8d7462-b4e1-4d3e-804f-cf8bf549b948)
+
+como se puede visualizar el gracias a este escript se pudo obtener las credenciales de acceso a la maquina }.
+
+Procedemos a realizar la conexion telnnet colocando la ip y el puerto del objetivo, mediante el siguiente comando:
+telnet 192.168.22.131 23
 
 
 
