@@ -35,14 +35,23 @@ set RHOST 192.168.222.131
 
 ![image](https://github.com/user-attachments/assets/d02e1177-0d88-49c9-8774-37dee759692d)
 
-Llegado a este punto se ejecunta con el comando run u exploit
+Llegado a este punto se ejecunta con el comando run u exploit:
 
 ![image](https://github.com/user-attachments/assets/cf8d7462-b4e1-4d3e-804f-cf8bf549b948)
 
-como se puede visualizar el gracias a este escript se pudo obtener las credenciales de acceso a la maquina }.
+como se puede visualizar el gracias a este escript se pudo obtener las credenciales de acceso a la maquina.
+user  : msfadmin
+password : msfadmin
 
 Procedemos a realizar la conexion telnnet colocando la ip y el puerto del objetivo, mediante el siguiente comando:
 telnet 192.168.22.131 23
+con esto se consagra la conexion con la maquina:
+
+![image](https://github.com/user-attachments/assets/8a686e25-1fe0-48f5-8eec-09e79f8b7ce0)
+
+si bien es cierto con la maquina objetivo en cuestion ya nos muestra sus credenciales para su ingreseo solo realizando  una conexion mediante el servicio de telnetl.
+
+
 
 
 
