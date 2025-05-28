@@ -1,4 +1,4 @@
-**Vulneracion mediante explotacion del servicio telnet
+**Vulneracion mediante explotacion del servicio telnet**
 
 Para esto nos apoyaremos de la herramienta  nmap con el siguiente comando:
 
@@ -29,3 +29,7 @@ como se puede llegar a identificar nos faltaria completar el campo de RHOST que 
 En mi caso la ip fue de 192.168.222.131 esta se ingresa con el comando:
 
 set RHOST 192.168.222.131
+![image](https://github.com/user-attachments/assets/41820f44-3ac5-4db8-9e6d-cd8e3cd07951)
+
+
+
