@@ -1,5 +1,6 @@
 # Vulneración mediante explotación del servicio Telnet
 
+No podemos iniciar a trabajar sin saber que tenemos alcance por eso realizaremos una analisis de sus puertos y de los servicios que estan disponibles.
 Para esto nos apoyaremos de la herramienta `nmap` con el siguiente comando:
 
 ```bash
